@@ -10,7 +10,7 @@ What it does:
        - PASS/FAIL label per element.
 
 Run:
-    cd intel-openvino-desktop-agent
+    cd OpenVINO-Autonomous-GUI-Agent
     python tests/live/test_vlm_coordinates.py
 """
 import base64

@@ -23,6 +23,8 @@ OpenVINO™ Model Server. No cloud. No API keys. No data ever leaves your desk.
 [Env Vars](#environment-variables) •
 [Contributing](CONTRIBUTING.md)
 
+<img src="docs/assets/openvinoguiagentdemo.gif" alt="OpenVINO Autonomous GUI Agent Demo" width="800">
+
 </div>
 
 ---
@@ -247,8 +249,8 @@ You need **Python 3.10, 3.11 or 3.12**, **Git**, and the
 Then, in PowerShell:
 
 ```powershell
-git clone https://github.com/Shehrozkashif/intel-openvino-desktop-agent.git
-cd intel-openvino-desktop-agent
+git clone https://github.com/Shehrozkashif/OpenVINO-Autonomous-GUI-Agent.git
+cd OpenVINO-Autonomous-GUI-Agent
 py -3.12 -m venv venv
 venv\Scripts\activate
 python start.py
@@ -368,7 +370,7 @@ curl http://localhost:8000/v1/config        # servable states (AVAILABLE?)
 ## Project Structure
 
 ```
-intel-openvino-desktop-agent/
+OpenVINO-Autonomous-GUI-Agent/
 ├── start.py                  ← single entry point (run this): installs deps,
 │                               fetches OVMS, prepares models, starts everything
 ├── main.py                   ← Qt app + orchestrator wiring

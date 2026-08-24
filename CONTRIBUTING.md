@@ -9,8 +9,8 @@ Thank you for considering a contribution to the Intel® OpenVINO™ Desktop Agen
 ### 1. Fork and clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/intel-openvino-desktop-agent.git
-cd intel-openvino-desktop-agent
+git clone https://github.com/YOUR_USERNAME/OpenVINO-Autonomous-GUI-Agent.git
+cd OpenVINO-Autonomous-GUI-Agent
 git checkout -b my-feature
 ```
 
